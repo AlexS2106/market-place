@@ -1,14 +1,16 @@
 import { fetchPosts } from "../../lib/fetch";
 import { baseURL } from "../../utilities/baseURL";
 
+////** COMPONENT **////
 const Post = ( { post } ) => { 
 
+    ////** MARK UP**////
   return (
     <>
-    <h1>{ post.title }</h1>
-    <p>{ post.body }</p>
+      <h1>{ post.title }</h1>
+      <p>{ post.body }</p>
     </>
-    )
+  );
   }
   
   export async function getStaticPaths () { 

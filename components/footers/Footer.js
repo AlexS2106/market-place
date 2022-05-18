@@ -1,6 +1,8 @@
 
-
+////** COMPONENT **////
 const Footer = () => { 
+
+  ////** MARK UP**////
   return (
     <footer>
       <h6>The Market Place</h6>
